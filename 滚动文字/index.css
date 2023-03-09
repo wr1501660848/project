@@ -1,0 +1,35 @@
+.container {
+    background: #bfe;
+    overflow: hidden;
+    /* 同 清除浮动效果 */
+    padding: 20px;
+}
+/* 解决父 元素 高度坍塌 问题 清除浮动*/
+/* .container::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+.title {
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin: 0;
+    margin-top: 5px;
+    border-right: 2px solid #ccc;
+    padding-right: 30px;
+}
+.list {
+    float: left;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    height: 30px;
+    margin: 0;
+    margin-left: 50px;
+}
+.list li {
+    height: 30px;
+    line-height: 30px;
+}
